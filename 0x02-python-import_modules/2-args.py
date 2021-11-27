@@ -8,6 +8,5 @@ if __name__ == "__main__":
         print("{} arguments:".format(alen))
     else:
         print("{} arguments:".format(alen))
-
     for i in range(alen):
         print("{}: {}".format(i + 1, sys.argv[i + 1]))
