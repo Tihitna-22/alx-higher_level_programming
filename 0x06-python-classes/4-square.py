@@ -22,7 +22,7 @@ class Square:
         the size of square
         """
         return self.__size
-    
+
     @size.setter
     def size(self, value):
         """setter of __size
