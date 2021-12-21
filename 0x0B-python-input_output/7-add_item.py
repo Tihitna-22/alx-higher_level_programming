@@ -2,6 +2,7 @@
 """
 add all arguments to a Python list
 """
+import json
 from sys import argv
 
 
