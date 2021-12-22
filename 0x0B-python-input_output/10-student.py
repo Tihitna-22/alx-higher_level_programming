@@ -12,13 +12,13 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-    def to_json(self, atr=None):
+    def to_json(self, attrs=None):
         """returns a dictionary of a Student instance
         with specified attributes"""
-        if atr is None:
+        if attrs is None:
             return self.__dict__
         new_dict = {}
-        for i in atr:
+        for i in attrs:
             try:
                 new_dict[i] = self.__dict__[i]
             except Exception:
