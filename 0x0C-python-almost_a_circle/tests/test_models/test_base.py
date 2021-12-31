@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import unittest
 import json
-from base import Base
+from models.base import Base
 
 
 class TestBase(unittest.TestCase):
