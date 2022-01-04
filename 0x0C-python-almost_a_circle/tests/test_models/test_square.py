@@ -22,7 +22,7 @@ class TestSquare(unittest.TestCase):
         self.assertEqual(self.s1.id, 1)
         self.assertEqual(self.s2.id, 2)
         self.assertEqual(self.s3.id, 3)
-        self.assertEqual(self.s4.id, 4)
+        self.assertEqual(self.s4.id, 7)
 
     def test_size(self):
         """Test for size"""
@@ -108,4 +108,4 @@ class TestSquare(unittest.TestCase):
         self.assertEqual(str(self.s1), "[Square] (1) 0/0 - 1")
         self.assertEqual(str(self.s2), "[Square] (2) 2/0 - 1")
         self.assertEqual(str(self.s3), "[Square] (3) 3/4 - 2")
-        self.assertEqual(str(self.s4), "[Square] (4) 5/6 - 4")
+        self.assertEqual(str(self.s4), "[Square] (7) 5/6 - 4")
