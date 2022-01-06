@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+
+
 class MyList(list):
     """
     Defines  MyList class hat inherits from list
