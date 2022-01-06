@@ -7,15 +7,6 @@ Using ``MyList``
 Test importing function from the module
     >>> Mylist = __import__('1-my_list').MyList
 
-Test that MyList inherits from list:
-	 >>> issubclass(MyList, list)
-	 True
-
-Test for empty list:
-	 >>> l = MyList()
-	 >>> l.print_sorted()
-	 []
-
 Test that appendng works:
 	 >>> l.append(1)
 	 >>> l.append(2)
