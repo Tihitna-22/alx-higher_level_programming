@@ -50,4 +50,7 @@ class Rectangle:
         Returns:
             The perimeter of the rectangle
         """
-        return 2 * (self.__width + self.__height)
+        if self.__width == 0 or self.__height == 0:
+            return 0
+        else:
+            return 2 * (self.__width + self.__height)
