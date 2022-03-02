@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
-let oldDict = require('./101-data.js').dict;
-let newDict = {};
+const oldDict = require('./101-data.js').dict;
+const newDict = {};
 Object.keys(oldDict).forEach(function (key) {
   if (newDict[oldDict[key]] === undefined) {
     newDict[oldDict[key]] = [];
