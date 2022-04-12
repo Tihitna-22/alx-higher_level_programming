@@ -6,9 +6,9 @@ request(url, function (error, response, body) {
     const characters = JSON.parse(body).characters;
     characters.forEach((character) => {
       request(character, function (error, response, body) {
-	if (!error) {
-	  console.log(JSON.parse(body).name);
-	}
+        if (!error) {
+          console.log(JSON.parse(body).name);
+        }
       });
     });
   }
